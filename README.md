@@ -2,8 +2,8 @@
 # TeaCozy - Codecademy Project
 
 This is a project from Codecademy to test CSS Flex-box skills.
-See live: 
 
+### See Live site: https://alisajad001.github.io/TeaCozy-Project/
 
 ## Authors
 
