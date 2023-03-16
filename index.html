@@ -3,25 +3,106 @@
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta mame="author" content="Ali Sajad Ahmadi">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>TeaCozy - Codecademy Front-end Project</title>
+    <title>TeaCozy Project - Codecademy</title>
     <link rel="stylesheet" href="css/style.css">
 </head>
 <body>
+    <!-- Header Section - start -->
     <header class="header">
+        <img src="imgs/img-tea-cozy-logo.png" alt="TeaCozy logo" class="logo">
         <nav class="navbar">
-            <a href="#" class="logo">
-                <img src="https://content.codecademy.com/courses/freelance-1/unit-4/img-tea-cozy-logo.png?_gl=1*191hhl5*_ga*ODAxMzU4MDU5Ni4xNjc3MTE2NTA0*_ga_3LRZM6TM9L*MTY3ODg0ODg4Ny4yMi4xLjE2Nzg4NDg5NzYuNjAuMC4w" alt="TeaCozy Logo">
-            </a>
-            <ul>
-                <li><a href="#mission">Mission</a></li>
-                <li><a href="#featured-tea">Featured Tea</a></li>
-                <li><a href="#locations">Locations</a></li>
-            </ul>
+            <a href="#mission">Mission</a>
+            <a href="#featured-tea">Featured Tea</a>
+            <a href="#locations">Locations</a>
         </nav>
     </header>
+    <!-- Header Section - end -->
 
-    <main>
+    <!-- Main Section - start -->
+    <main class="main">
+        <!-- Mission Section -->
+        <section id="mission" class="mission">
+            <div class="mission-title">
+                <h2>Our Mission</h2>
+            <h4>Handpicked, Artisanally Curated, Free Range, Sustainable, Small Batch, Fair Trade, Oraganic Tea</h4>
+            </div>
+        </section>
+
+        <!-- Feautured-tea Section -->
+        <section class="featured-tea" id="featured-tea">
+            <h2>Tea of the Month</h2>
+            <h4>What's Steeping at The Tea Cozy</h4>
+
+            <div class="figure-container">
+                <div class="figure">
+                    <figure>
+                        <img src="imgs/img-berryblitz.jpg" alt="Berry Blitz Tea">
+                    </figure>
+                    <h4>Fall Berry Blitz Tea</h4>
+                </div>
+                <div class="figure">
+                    <figure>
+                        <img src="imgs/img-spiced-rum.jpg" alt="Spized Rum Tea">
+                    </figure>
+                    <h4>Spiced Rum Tea</h4>
+                </div>
+                <div class="figure">
+                    <figure>
+                        <img src="imgs/img-donut.jpg" alt="Seasonal Donut">
+                    </figure>
+                    <h4>Seasonal Donuts</h4>
+                </div>
+                <div class="figure">
+                    <figure>
+                        <img src="imgs/img-myrtle-ave.jpg" alt="Myrtle Ave Tea">
+                    </figure>
+                    <h4>Myrtle Ave Tea</h4>
+                </div>
+                <div class="figure">
+                    <figure>
+                        <img src="imgs/img-bedford-bizarre.jpg" alt="Bedford Bizzare Tea">
+                    </figure>
+                    <h4>Bedford Bizzare Tea</h4>
+                </div>
+            </div>
+        </section>
+
+        <!-- Locations Section -->
+        <sections class="locations" id="locations">
+            <h2>Locations</h2>
+            <div class="locations-container">
+                <div class="location">
+                    <h3>Downtown</h3>
+                    <h4>384 West 4th St</h4>
+                    <h4>Suite 108</h4>
+                    <h4>Portland, Maine</h4>
+                </div>
+                <div class="location">
+                    <h3>East Bayside</h3>
+                    <h4>3433 Phisherman's Avenue</h4>
+                    <h4>(Northwest Corner)</h4>
+                    <h4>Portland, Maine</h4>
+                </div>
+                <div class="location">
+                    <h3>Oakdale</h3>
+                    <h4>515 Crescent Avenue</h4>
+                    <h4>Second Floor</h4>
+                    <h4>Portland, Maine</h4>
+                </div>
+            </div>
+        </sections>
     </main>
+    <!-- Main Section - end -->
+
+    <!-- Footer Section - start -->
+    <footer class="footer">
+        <h2>The Tea Cozy</h2>
+        <h5>contact@theteacozy.com</h5>
+        <h5>917-555-8904</h5>
+        <h5 class="copyright">copyright The Tea Cozy 2017</h5>
+    </footer>
+    <!-- Footer Section - end -->
 </body>
 </html>
